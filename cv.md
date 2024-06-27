@@ -8,6 +8,12 @@
 ## Skills
 * *HTML
 * *CCS
+## Code example
+```
+function multiply(a, b){
+ return a * b;
+}
+```
 ## Education
 * __University:__ *The Belarusian State University*
 * __Courses:__ *RS School JavaScript/Front-end course*
