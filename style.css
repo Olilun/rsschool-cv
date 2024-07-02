@@ -1,16 +1,33 @@
-body{
+body {
     font-family: Roboto, sans-serif;
 }
 
 h1 {
-    margin-bottom: 0.25em;
+    font-size: 36px;
+    margin-bottom: 0.5em;
 }
 
-h2{
-    margin-top: 0;
+h2 {
+    margin: 0.25em;
 }
- 
-.photo{
-    position: absolute;
+
+img {
+    height: 150px;
+}
+
+.photo {
+    display: inline;
+    height: 150px;
     right: 50px;
 }
+
+.contact {
+    display: inline-block;
+    margin-left: 0.5em;
+}
+
+.cv {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
