@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
-  }
+}
+
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0px;
@@ -16,17 +20,17 @@ body {
 .navigation {
     margin: 0px;
     padding: 0px;
-    background-color:  rgb(108, 151, 149);
+    background-color: rgb(108, 151, 149);
 }
 
 .navigation_site {
     margin: 0px;
     padding: 0px;
     margin: 0 auto;
-    
+
     list-style: none;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -35,7 +39,9 @@ body {
     display: block;
     text-align: center;
     text-decoration: none;
+    font-size: 15px;
     
+
     color: rgb(255, 255, 255);
     background-color: rgb(108, 151, 149);
     border: none;
@@ -45,6 +51,7 @@ body {
 .button:focus,
 .button:active {
     background-color: rgb(102, 105, 105);
+    scroll-behavior: auto;
 }
 
 .main-photo {
@@ -53,12 +60,12 @@ body {
     object-fit: cover;
     border-radius: 50%;
     filter: grayscale(0.2) brightness(1.05);
-    
+
 }
 
 .photo {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -103,33 +110,40 @@ pre {
     line-height: 30px;
     font-weight: 700;
     margin: 0;
-    color: rgb(46, 65, 63) ;
+    color: rgb(46, 65, 63);
 }
 
-.footer_wrap{
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 30px;
     background-color: rgb(108, 151, 149);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 30px;
 }
+
 .git {
     height: 30px;
 }
 
 .rsschool {
     height: 30px;
+
 }
+
 .footer_button {
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
-    
+
     color: rgb(255, 255, 255);
     background-color: rgb(108, 151, 149);
     border: none;
 }
 
-/*
 .cv {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
-*/
