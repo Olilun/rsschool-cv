@@ -16,7 +16,7 @@ body {
 .navigation {
     margin: 0px;
     padding: 0px;
-    background-color:  rgb(151, 214, 211);
+    background-color:  rgb(108, 151, 149);
 }
 
 .navigation_site {
@@ -37,7 +37,7 @@ body {
     text-decoration: none;
     
     color: rgb(255, 255, 255);
-    background-color: rgb(151, 214, 211);
+    background-color: rgb(108, 151, 149);
     border: none;
 }
 
@@ -47,37 +47,86 @@ body {
     background-color: rgb(102, 105, 105);
 }
 
-.header {
-    background-color: rgb(151, 214, 211);
-
-    margin-bottom: 30px;
-}
-img {
+.main-photo {
     height: 150px;
+    margin: 20px;
+    object-fit: cover;
+    border-radius: 50%;
+    filter: grayscale(0.2) brightness(1.05);
+    
 }
 
 .photo {
-    display: inline;
-    height: 150px;
-    right: 50px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
 }
-
 
 h1 {
     font-size: 36px;
-    margin-bottom: 0.5em;
+    font-weight: 200;
+    letter-spacing: 5px;
+    line-height: 50px;
+    text-align: center;
+    color: rgb(81, 114, 112);
+    margin: 0;
+}
+
+header {
+    border-bottom: 15px solid rgb(198, 207, 207);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+main {
+    margin: 20px;
 }
 
 h2 {
-    margin: 0.25em;
+    font-size: 26px;
+    line-height: 50px;
+    color: rgb(46, 65, 63);
+    margin: 1px;
 }
 
-
-
-.contact {
-    display: inline-block;
-    margin-left: 0.5em;
+ul,
+p {
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 50px;
+    color: rgb(46, 65, 63);
+    margin: 0;
 }
+
+pre {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    margin: 0;
+    color: rgb(46, 65, 63) ;
+}
+
+.footer_wrap{
+    margin-top: 30px;
+    background-color: rgb(108, 151, 149);
+}
+.git {
+    height: 30px;
+}
+
+.rsschool {
+    height: 30px;
+}
+.footer_button {
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    
+    color: rgb(255, 255, 255);
+    background-color: rgb(108, 151, 149);
+    border: none;
+}
+
 /*
 .cv {
     max-width: 800px;
